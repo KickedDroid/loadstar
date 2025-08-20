@@ -80,7 +80,7 @@ c-all:
     x86_64-w64-mingw32-gcc -DUTILS -DBEACON_API -c src/entry.c -o objects/c_part.o
 
 
-bof: rust c copy view-bof
+bof: bof-utils
 
 bof-utils: rust c-utils copy view-bof
 
