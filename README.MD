@@ -124,7 +124,7 @@ pub unsafe extern "C" fn rust_bof(args: *mut c_char, alen: c_int) {
 ```
 just bof-utils
 ```
-
+![image](https://github.com/KickedDroid/loadstar/blob/master/examples/Screenshot_2025-08-20_12-37-33.png?raw=true)
 
 ### CreateProcessW
 
