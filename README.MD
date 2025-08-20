@@ -8,17 +8,9 @@ prerequisites `just`
 cargo install just
 ```
 
-#### default
-
-Just include default `output`
-
-```bash
-just bof
-```
-
 #### utils
 
-Build with all utils enabled allowing us to extract data passed to the coff along with `printf`.
+Build with utils enabled allowing us to extract data passed to the coff along with `printf`. This is default.
 
 ```bash
 just bof-utils
