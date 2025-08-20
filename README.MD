@@ -1,5 +1,15 @@
 A different approach to building BOFs in rust. Similar to `bof-oxide` but uses FFI to create wrapper fns.
 
+```rust
+use core::ffi::{c_char, c_int, c_void};
+use utils::output;
+
+#[unsafe(no_mangle)]
+pub unsafe extern "C" fn rust_bof(args: *mut c_char, alen: c_int) {
+    output("HELOOOOOO");
+}
+```
+
 ## Building
 
 prerequisites `just`
